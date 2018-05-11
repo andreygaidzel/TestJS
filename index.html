@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TestJS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="window">
+        <div class="buttons">
+            <button onclick="sendCallback()">Callback</button>
+            <button onclick="sendPromise()">Promise</button>
+            <button onclick="sendFetch()">Async/Await</button>
+        </div>
+        <div class="output">
+            <div id="list"></div>
+            <div class="count">
+                <div id="total"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/common.js"></script>
+    <script src="js/callback.js"></script>
+    <script src="js/promise.js"></script>
+    <script src="js/fetch.js"></script>
+</body>
+</html>

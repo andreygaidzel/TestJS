@@ -1,0 +1,43 @@
+.window {
+  border: 2px solid blue;
+  width: 360px;
+  height: 360px;
+  margin: 200px;
+}
+
+.buttons {
+  width: 100%;
+  height: 22%;
+  border-bottom: 2px solid blue;
+}
+
+.buttons button {
+  margin: 20px;
+}
+
+.output {
+  width: 100%;
+  height: 78%;
+}
+
+#list {
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+.count {
+  width: 30%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+#total {
+  width: 100%;
+  height: 20px;
+  border-top: 2px solid blue;
+  border-left: 2px solid blue;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
